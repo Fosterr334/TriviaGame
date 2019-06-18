@@ -1,0 +1,11 @@
+body{
+    background      : turquoise;
+}
+.strip{
+    background      : white;   
+}
+.head{
+    background      : white;
+    text-align      : center;
+    margin-left     : 8.5%;
+}
