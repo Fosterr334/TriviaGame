@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Trivia</title>
+    <title>Riddles</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,39 +13,51 @@
   <body>
     <!-- Header -->
     <h1 class="head col-xl-10 ">
-        Trivia
+        Riddles
     </h1>    
 <div class="container strip col-xl-10">
   <!-- Timer -->
     <div class="row d-flex justify-content-center">
       <p>Time Remaining:</p>         
-      <p id="timer">000</p>
+      <p id="timerCt">100</p>
       <p id="space">s</p>
     </div>
-    <div class="row d-flex justify-content-center">
-      <p id="question">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias deleniti rerum dolores et qui ipsum fugit voluptates est eos? Assumenda magni.
-      </p>
-    </div>
-    <div class="row d-flex justify-content-center">
+    <!-- Question 1 -->
+    <div class="row d-flex justify-content-center spacing">
         <form action="/action_page.php">
-          <p>Please select your gender:</p>
-            <input type="radio" name="gender" value="male"> Male
-            <input type="radio" name="gender" value="female"> Female
-            <input type="radio" name="gender" value="other"> Other
-            
-          </form>
-    </div>  
-    
-</div>
+          <p>There are 2 ducks in front of 2 other ducks. There are 2 ducks behind 2 other ducks. There are 2 ducks beside 2 other ducks. How many ducks are there?</p>
+            <input type="radio" name="riddle1" value="2" id="centering"> 2
+            <input type="radio" name="riddle1" value="4"> 4
+            <input type="radio" name="riddle1" value="6"> 6
+            <input type="radio" name="riddle1" value="8"> 8
+        </form>
+    </div>
+    <!-- Question 2 -->
+    <div class="row d-flex justify-content-center spacing">
+      <form action="/action_page.php">
+        <p id = "questions">If you're 8 feet away from a door and with each move you advance half the distance to the door. How many moves will it take to reach the door?</p>
+          <input type="radio" name="riddle2" value="1" id="centering"> 1
+          <input type="radio" name="riddle2" value="4"> 4
+          <input type="radio" name="riddle2" value="Never"> Never 
+      </form>
+    </div>
+    <!-- Question 3 -->
+    <div class="row d-flex justify-content-center spacing">
+      <form action="/action_page.php">
+        <p id = "questions">How many times can you subtract the number 5 from 25?</p>
+          <input type="radio" name="riddle3" value="1" id="centeringQ3"> 1
+          <input type="radio" name="riddle3" value="5"> 5
+          <input type="radio" name="riddle3" value="Infinite"> Infinte
+      </form>
+    </div>s
+    <a name="Submit" id="submitBtn" class="btn btn-primary d-flex justify-content-center" href="#" role="button">Submit</a>      
+  </div>
   </body>
     <!-- jQuery -->s
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <!-- app.js -->
     <script src="assets/javascript/app.js" ></script>
 </html>
-      <!-- <p>Time Remaining:</p>         
-      <p id="timer">000</p>
-      <p id="space">s</p> -->
+
 
     

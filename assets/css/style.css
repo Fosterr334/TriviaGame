@@ -9,3 +9,29 @@ body{
     text-align      : center;
     margin-left     : 8.5%;
 }
+#questions{
+    text-align      : center;
+}
+.spacing{
+    margin-bottom   : 5%;
+}
+.lives{
+    width           : 8%;
+    height          : 8%;
+}
+#life1{
+    opacity         : 1;
+}
+#life2{
+    opacity         : 1;
+    transform       : rotate(90deg);
+}
+#life3{
+    opacity         : 1;
+}
+#centering{
+    margin-left     :45%;
+}
+#centeringQ3{
+    margin-left     :37%;
+}
